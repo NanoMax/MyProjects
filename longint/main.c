@@ -14,7 +14,6 @@ int max(int a, int b){
 enum bn_code {
     BN_OK, BN_NULL_OBJECT, BN_NO_MEMORY, BN_DIVIDE_BY_ZERO
 };
-//???? ?????????
 struct bn_s{
     int *body;
     int sign;
